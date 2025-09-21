@@ -1,0 +1,21 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "a simple weather CLI app to learn api, .then and other things.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winddelion/weatherApp.git"
+  },
+  "keywords": [],
+  "author": "Winddelion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Winddelion/weatherApp/issues"
+  },
+  "homepage": "https://github.com/Winddelion/weatherApp#readme"
+}
