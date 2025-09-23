@@ -1,5 +1,4 @@
 import { getGeocode, getWeatherData } from './packages/weather_data.js';
-import readline from 'readline';
 import chalk from 'chalk';
 
 function displayWeather(weatherData) {
