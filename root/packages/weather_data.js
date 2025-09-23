@@ -1,6 +1,6 @@
 import { api_key } from "../api_key.js";
 
-async function getStatusCode(url) {
+export async function getStatusCode(url) {
     if (typeof url !== 'string') {
         console.error('Incorect data type. Please return a string');
     }
@@ -13,7 +13,7 @@ async function getStatusCode(url) {
     }
 }
 
-async function getGeocode(city) {
+export async function getGeocode(city) {
     const geocode_url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${api_key}`;
     const geocodeStatusCode = await getStatusCode(geocode_url);
     
@@ -41,7 +41,7 @@ async function getGeocode(city) {
     }
 }
 
-async function getWeatherData(lat, lon) {
+export async function getWeatherData(lat, lon) {
     const weatherData_url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`;
     const weatherDataStatusCode = await getStatusCode(weatherData_url);
 
