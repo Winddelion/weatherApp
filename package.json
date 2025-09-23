@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/Winddelion/weatherApp#readme",
   "dependencies": {
-    "chalk": "^5.6.2",
-    "prompt-sync": "^4.2.0"
+    "chalk": "^5.6.2"
   }
 }
